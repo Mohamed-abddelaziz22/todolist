@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #a2d2ff;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.task {
+  width: 1000px;
+  margin-top: 50px;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.059);
+  border-bottom: 3px solid #fff;
+}
+.icon-star,
+.icon-trash-o,
+.icon-heart,.icon-angry {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.icon-heart:hover {
+  font-size: 28px;
+}
+.icon-trash-o:hover {
+  font-size: 28px;
+  color: #000000d7;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.icon-star,
+.icon-trash-o {
+  opacity: 0.3;
+}
+.icon-star:hover {
+  opacity: 1;
+  color: orange;
+  transition: 0.3s;
+  font-size: 28px;
+}
+.task p {
+    font-size: 27px;
+}
+.icon-angry:hover{
+color: orange;
+transition: 0.3s;
+  font-size: 28px;
+}
+.icon-angry{
+  color:  rgb(234, 102, 102);
+ 
+  opacity: 1;
+}
+
+form{
+    text-align: center;
+}
+form input{
+    padding: 15px;
+    width: 500px;
+    border-radius: 7px;
+    border: none;
+    text-align: right;
+    text-align: center;
+    
+}
+form input:focus{
+    outline: none;
+}
+form ::placeholder{
+    text-align: center;
+    opacity: 0.7;
+    font-size: 17px;
+    
+}
+button{
+    all:unset
+}
+
+.icon-upload{
+    font-size: 38px;
+    margin-left: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    color: #fff;
+  }
+  .icon-upload:hover{
+    font-size: 40px;
+    transition: 0.3s;
+    color: rgba(165, 42, 42, 0.87);
+  }
+
+  .dd{
+    display: none;
+  }
+
+  .gg{
+    text-decoration-line: line-through;
+    text-decoration-style:wavy ;
+  }
+
+  .ggggg{
+    color: orange;
+    opacity: 1;
+  }
